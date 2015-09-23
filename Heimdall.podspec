@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'Heimdall'
-  spec.version = '2.0-alpha.1'
+  spec.version = '2.0-alpha.2'
   spec.authors = {
     'Felix Jendrusch' => 'felix@rheinfabrik.de',
     'Tim Brückmann' => 'tim@rheinfabrik.de'
@@ -19,8 +19,8 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, '8.0'
 
-  spec.dependency 'Argo', '~> 1.0'
-  spec.dependency 'KeychainAccess', '~> 1.2'
+  spec.dependency 'Argo', '~> 2.0'
+  spec.dependency 'KeychainAccess', '~> 2.0'
   spec.dependency 'Result', '0.6-beta.1'
   spec.framework = 'Foundation'
 
