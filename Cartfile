@@ -1,3 +1,3 @@
 github "antitypical/Result" ~> 0.6
-github "thoughtbot/Argo" ~> "master"
+github "thoughtbot/Argo" "master"
 github "kishikawakatsumi/KeychainAccess" ~> 2.0
